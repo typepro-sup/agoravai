@@ -1,0 +1,350 @@
+{
+  "version": "6",
+  "id": "clstjq2sq000qs01gm5lldloi",
+  "name": "Consulta de Emagrecimento [MODELO]",
+  "events": [
+    {
+      "id": "un5tlwvhxs45c4n73qlkjr99",
+      "outgoingEdgeId": "aljoj7crvy6yshq5d5ljdiuf",
+      "graphCoordinates": {"x": -1882.26, "y": 144.8},
+      "type": "start"
+    }
+  ],
+  "groups": [
+    {
+      "id": "q10ejyz4y4151cx7vzupevkm",
+      "title": "Boas-vindas",
+      "graphCoordinates": {"x": -1434.92, "y": -30.11},
+      "blocks": [
+        {
+          "id": "kl16bf94mpvm7ux0w9yhaksc",
+          "type": "text",
+          "content": {
+            "richText": [
+              {
+                "type": "p",
+                "children": [
+                  {"bold": true, "text": "Conectando...", "italic": true}
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "yb2ov9jisqygusgv4kkkmuet",
+          "type": "Wait",
+          "options": {"secondsToWaitFor": "3"}
+        },
+        {
+          "id": "wnlr5x9ghf9qgkch70g30sh7",
+          "type": "text",
+          "content": {
+            "richText": [
+              {
+                "type": "p",
+                "children": [
+                  {"text": "ESSA ", "italic": true},
+                  {"bold": true, "text": "CONSULTA É GRATUITA", "italic": true, "underline": true},
+                  {"bold": true, "text": "!", "italic": true}
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "o65dkznan6jaxe9gtw4csvbw",
+          "type": "Wait",
+          "options": {"secondsToWaitFor": "3"}
+        },
+        {
+          "id": "ojoiuqw11ol7mluihnpdkffy",
+          "type": "text",
+          "content": {
+            "richText": [
+              {
+                "type": "p",
+                "children": [
+                  {"text": "Olá! Que prazer ter você aqui! Sou a Dra. Ana, especialista em emagrecimento saudável."}
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "h9jhpsm5w83cfrwtlqtvsd38",
+          "type": "Wait",
+          "options": {"secondsToWaitFor": "3"}
+        },
+        {
+          "id": "v5qsbdrcy02niyr6l7bvthzf",
+          "type": "image",
+          "content": {
+            "url": "https://images.unsplash.com/photo-1571772996211-2f02c9727629?q=80&w=1000"
+          }
+        },
+        {
+          "id": "qgabe8bc82icxs4d0qnrazvx",
+          "type": "text",
+          "content": {
+            "richText": [
+              {
+                "type": "p",
+                "children": [
+                  {"text": "Eu desenvolvi um "},
+                  {"bold": true, "text": "PROTOCOLO EXCLUSIVO"},
+                  {"text": " de emagrecimento que já ajudou mais de "},
+                  {"bold": true, "text": "10 mil pessoas"},
+                  {"text": " a conquistarem o corpo dos seus sonhos..."}
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "w4cee6sonqhwspgpz3gsuyeb",
+      "title": "Avaliação",
+      "graphCoordinates": {"x": -1022.84, "y": -36.26},
+      "blocks": [
+        {
+          "id": "qxhdyp7zce3in4k4hozn96ij",
+          "type": "text",
+          "content": {
+            "richText": [
+              {
+                "type": "p",
+                "children": [
+                  {"text": "Me conte, qual é o seu "},
+                  {"bold": true, "text": "principal objetivo"},
+                  {"text": "?"}
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "qt7bnkwjtpwk4vwer36igfbs",
+          "type": "choice input",
+          "items": [
+            {"id": "cni3eqkin3v9p22ygangeacv", "content": "Perder peso"},
+            {"id": "di12vyph4ac1ow2cbrxd9fjy", "content": "Definir o corpo"},
+            {"id": "jrfnohrfovrxisj906c5u57o", "content": "Ganhar massa magra"},
+            {"id": "o1ytlvf5cwjrkqnhxtray6e8", "content": "Melhorar a saúde"},
+            {"id": "xq5j7kvaeo274b2tz9xc84dw", "content": "Controlar ansiedade alimentar"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hlsuocm2o2ev03y3vnjcl09v",
+      "title": "Benefícios",
+      "graphCoordinates": {"x": 720.86, "y": -44.77},
+      "blocks": [
+        {
+          "id": "jod99kisimo8xbxjd1sfga1q",
+          "type": "text",
+          "content": {
+            "richText": [
+              {
+                "type": "p",
+                "children": [
+                  {"text": "Com o nosso protocolo você vai:"}
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f79ru6dedcyjtkkye1yid1v3",
+          "type": "text",
+          "content": {
+            "richText": [
+              {
+                "type": "p",
+                "children": [
+                  {"text": "✅ Emagrecer de forma saudável e duradoura"}
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {"text": "✅ Acelerar seu metabolismo naturalmente"}
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {"text": "✅ Reduzir a ansiedade alimentar"}
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {"text": "✅ Aumentar sua disposição e energia"}
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {"text": "✅ Melhorar sua autoestima"}
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {"text": "✅ Definir seu corpo"}
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nqcqhccpum9k3olbs1w81fzl",
+      "title": "Depoimentos",
+      "graphCoordinates": {"x": 1132.21, "y": -41.07},
+      "blocks": [
+        {
+          "id": "k4efu3ihuewkgqrltk4yq7w2",
+          "type": "text",
+          "content": {
+            "richText": [
+              {
+                "type": "p",
+                "children": [
+                  {"text": "Veja o resultado da Maria:"}
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "qyvoqymoktrsr36a4qvbcs4t",
+          "type": "text",
+          "content": {
+            "richText": [
+              {
+                "type": "p",
+                "children": [
+                  {"text": "\"Perdi 15kg em apenas 3 meses seguindo o protocolo! Minha vida mudou completamente!\""}
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "fd7qa92wdr2oz38viotl5c5i",
+          "type": "image",
+          "content": {
+            "url": "https://images.unsplash.com/photo-1611156412630-2c91641a0b6c?q=80&w=1000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nzvfym1ubzllpkx9viry61pf",
+      "title": "Fechamento",
+      "graphCoordinates": {"x": 1547.69, "y": -45.66},
+      "blocks": [
+        {
+          "id": "l8pk4gsg6qoohui94i3x3ns4",
+          "type": "text",
+          "content": {
+            "richText": [
+              {
+                "type": "p",
+                "children": [
+                  {"text": "Quer começar sua transformação "},
+                  {"bold": true, "text": "HOJE"},
+                  {"text": "?"}
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "ksowcbx72l551ivc7q7w3zk5",
+          "type": "choice input",
+          "items": [
+            {"id": "jdsas9np961u54ch4447ecp3", "content": "SIM! QUERO COMEÇAR AGORA!"}
+          ]
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "aljoj7crvy6yshq5d5ljdiuf",
+      "from": {"eventId": "un5tlwvhxs45c4n73qlkjr99"},
+      "to": {"groupId": "q10ejyz4y4151cx7vzupevkm"}
+    },
+    {
+      "id": "nwo5ftvpbpa0r54ukfg836fd",
+      "from": {"groupId": "q10ejyz4y4151cx7vzupevkm"},
+      "to": {"groupId": "w4cee6sonqhwspgpz3gsuyeb"}
+    },
+    {
+      "id": "hv9b0s2yskmtahzfjved8vgk",
+      "from": {"groupId": "w4cee6sonqhwspgpz3gsuyeb"},
+      "to": {"groupId": "hlsuocm2o2ev03y3vnjcl09v"}
+    },
+    {
+      "id": "zxq4wdbgyjjmxvzbpzkjdq4k",
+      "from": {"groupId": "hlsuocm2o2ev03y3vnjcl09v"},
+      "to": {"groupId": "nqcqhccpum9k3olbs1w81fzl"}
+    },
+    {
+      "id": "final_edge",
+      "from": {"groupId": "nqcqhccpum9k3olbs1w81fzl"},
+      "to": {"groupId": "nzvfym1ubzllpkx9viry61pf"}
+    }
+  ],
+  "theme": {
+    "general": {
+      "font": "Open Sans",
+      "background": {
+        "type": "Color",
+        "content": "#f5f5f5"
+      }
+    },
+    "chat": {
+      "hostAvatar": {
+        "isEnabled": true,
+        "url": "https://images.unsplash.com/photo-1571772996211-2f02c9727629?q=80&w=1000"
+      },
+      "hostBubbles": {
+        "backgroundColor": "#ffffff",
+        "color": "#303235"
+      },
+      "guestBubbles": {
+        "backgroundColor": "#e1ffc7",
+        "color": "#303235"
+      },
+      "buttons": {
+        "backgroundColor": "#128C7E",
+        "color": "#FFFFFF"
+      }
+    },
+    "customCss": ".typebot-chat-view > .flex:first-child { padding-top: 30px; } .typebot-input { position: fixed; bottom: 0; align-items: center; z-index: 999; right: 0; } .typebot-container { background-size: initial!important; background-repeat: repeat-x!important; }"
+  },
+  "settings": {
+    "general": {
+      "isBrandingEnabled": false,
+      "rememberUser": {
+        "isEnabled": true
+      }
+    },
+    "typingEmulation": {
+      "enabled": true,
+      "speed": 300,
+      "maxDelay": 1.5
+    },
+    "metadata": {
+      "title": "Consulta de Emagrecimento",
+      "description": "Transforme sua vida com nosso protocolo de emagrecimento exclusivo.",
+      "imageUrl": "https://images.unsplash.com/photo-1571772996211-2f02c9727629?q=80&w=1000"
+    }
+  }
+}
